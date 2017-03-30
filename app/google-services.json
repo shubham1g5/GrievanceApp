@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "537042656386",
+    "firebase_url": "https://grievanceapp.firebaseio.com",
+    "project_id": "grievanceapp",
+    "storage_bucket": "grievanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537042656386:android:cda07980f250c65a",
+        "android_client_info": {
+          "package_name": "com.example.shubham.grievanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537042656386-s9f3v0v8fj9ih53ps0epb1u5u928e0h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.grievanceapp",
+            "certificate_hash": "9a6d610237600aa2986afa6e084865406d05c284"
+          }
+        },
+        {
+          "client_id": "537042656386-rhj7vi4u4jrm1oqnn17ru91k4hm7ql1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.grievanceapp",
+            "certificate_hash": "6633c00c6057a92580dcae222691bb8935029d41"
+          }
+        },
+        {
+          "client_id": "537042656386-24gf2dclbnknf33a7tstjkt8mjhfgh6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK8UUTPtvKPRrRz7xEm-Nm-Xsh9yMhKVs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537042656386-24gf2dclbnknf33a7tstjkt8mjhfgh6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
