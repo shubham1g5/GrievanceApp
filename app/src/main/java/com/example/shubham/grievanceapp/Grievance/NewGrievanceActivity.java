@@ -32,6 +32,8 @@ import butterknife.OnClick;
 public class NewGrievanceActivity extends AppCompatActivity {
 
     public static final String EXTRA_GRIEVANCE_KEY = "com.example.shubham.grievanceapp.extra_greivance";
+    public static final String EXTRA_DISABLE_FAB = "com.example.shubham.grievanceapp.extra_disable_fab";
+
 
     @BindView(R.id.name)
     EditText mNameEt;

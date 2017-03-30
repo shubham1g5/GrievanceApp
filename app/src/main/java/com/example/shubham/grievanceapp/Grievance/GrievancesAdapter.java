@@ -12,6 +12,7 @@ import com.example.shubham.grievanceapp.model.Grievance;
 
 import java.util.ArrayList;
 
+import static com.example.shubham.grievanceapp.Grievance.NewGrievanceActivity.EXTRA_DISABLE_FAB;
 import static com.example.shubham.grievanceapp.Grievance.NewGrievanceActivity.EXTRA_GRIEVANCE_KEY;
 
 public class GrievancesAdapter extends RecyclerView.Adapter<GrievancesHolder> {
@@ -50,6 +51,7 @@ public class GrievancesAdapter extends RecyclerView.Adapter<GrievancesHolder> {
         holder.getView().setOnClickListener(v -> {
             Intent intent = new Intent(mContext, ImagesActivity.class);
             intent.putExtra(EXTRA_GRIEVANCE_KEY, grievance);
+            intent.putExtra(EXTRA_DISABLE_FAB,true);
             mContext.startActivity(intent);
         });
     }

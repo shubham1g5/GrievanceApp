@@ -42,6 +42,7 @@
     <!--formats-->
     <string name="manager_format">Manager: %1s</string>
     <string name="age_format">, %1s</string>
+    <string name="choose_pic_method">Choose From</string>
 
 
     <string-array name="sex_array">
