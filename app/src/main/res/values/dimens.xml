@@ -5,4 +5,5 @@
     <dimen name="signIn_width">200dp</dimen>
     <dimen name="field_padding">4dp</dimen>
     <dimen name="age_margin">2dp</dimen>
+    <dimen name="extended_app_bar_height">128dp</dimen>
 </resources>

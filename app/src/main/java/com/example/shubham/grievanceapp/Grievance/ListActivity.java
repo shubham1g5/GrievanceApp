@@ -50,6 +50,8 @@ public class ListActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
+        toolbar.setTitle(R.string.activity_list_title);
+
 
         db = FirebaseDatabase.getInstance().getReference();
         grievances = new ArrayList<>();
