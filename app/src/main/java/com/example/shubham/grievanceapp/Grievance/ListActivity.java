@@ -32,6 +32,7 @@ import butterknife.OnClick;
 
 public class ListActivity extends AppCompatActivity {
 
+    private static final String GRIEVANCES_KEY = "com.example.shubham.grievances";
     @BindView(R.id.recyclerview)
     RecyclerView mRecyclerView;
 
@@ -54,7 +55,13 @@ public class ListActivity extends AppCompatActivity {
 
 
         db = FirebaseDatabase.getInstance().getReference();
-        grievances = new ArrayList<>();
+
+        if (savedInstanceState != null) {
+            grievances = savedInstanceState.getParcelableArrayList(GRIEVANCES_KEY);
+        }else {
+            grievances = new ArrayList<>();
+        }
+
         setUpListView();
     }
 
@@ -62,6 +69,12 @@ public class ListActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         fetchGrievances();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelableArrayList(GRIEVANCES_KEY,grievances);
     }
 
     @Override
